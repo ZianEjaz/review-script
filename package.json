@@ -1,0 +1,19 @@
+{
+  "name": "review-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "array-to-txt-file": "^1.0.2",
+    "cheerio": "^1.0.0-rc.5",
+    "fs": "0.0.1-security",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "xlsx": "^0.16.9"
+  }
+}
