@@ -1,7 +1,7 @@
 const arrayToTxtFile = require('array-to-txt-file')
 
 
-const reviewsColor = '#4d4d4d';
+const reviewsColor = '#30a948';
 
 const data = require("./reviews.json");
 const shuffledData = data.sort(() => Math.random() - 0.5);
