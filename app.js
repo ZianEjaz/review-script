@@ -1,8 +1,8 @@
 const arrayToTxtFile = require('array-to-txt-file')
 
 
-const reviewsColor = '#4d4d4d';
-const reviewsForAccount = 'robit';
+const reviewsColor = '#f15a24';
+const reviewsForAccount = 'dgh';
 
 const data = require("./reviews.json");
 const shuffledData = data.sort(() => Math.random() - 0.5);
@@ -33,7 +33,7 @@ const finalHtml = newArray.map((obj, index)=>{
   }
   return obj.html;
 })
-arrayToTxtFile(finalHtml, `./${reviewsForAccount}.html` , err => {
+arrayToTxtFile(finalHtml, `./reviews html files/${reviewsForAccount}.html` , err => {
   if(err) {
     console.error(err)
     return
